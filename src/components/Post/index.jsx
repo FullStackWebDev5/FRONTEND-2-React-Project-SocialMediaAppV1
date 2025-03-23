@@ -19,7 +19,7 @@ const Post = ({ post }) => {
   const [isLiked, setIsLiked] = useState(false)
 
   return (
-    <Col lg={3} md={4} xs={12} className='mt-2'>
+    <Col lg={3} md={6} xs={12} className='mt-2'>
       <Card className='post-card'>
         <Card.Header
           className='p-2 me-1 d-flex justify-content-between align-items-center bg-white fw-semibold'
